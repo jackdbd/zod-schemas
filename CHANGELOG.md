@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.1.0](https://github.com/jackdbd/zod-schemas/compare/v2.0.0...v2.1.0) (2024-01-29)
+
+
+### Features
+
+* add another package entry point ([03b2751](https://github.com/jackdbd/zod-schemas/commit/03b27517a8c33e23b759930ec1f0af5d87744830))
+
 ## [2.0.0](https://github.com/jackdbd/zod-schemas/compare/v1.0.1...v2.0.0) (2024-01-29)
 
 
