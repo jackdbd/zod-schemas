@@ -13,7 +13,7 @@ const git = [
     assets: ["CHANGELOG.md", "package.json"],
     // https://github.com/semantic-release/git#message
     message:
-      "chore(zod-schemas): release v.${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
+      "chore: release v.${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
   },
 ];
 
