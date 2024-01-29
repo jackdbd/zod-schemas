@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.0.1](https://github.com/jackdbd/zod-schemas/compare/v1.0.0...v1.0.1) (2024-01-29)
+
+
+### Bug Fixes
+
+* rename package ([9153493](https://github.com/jackdbd/zod-schemas/commit/9153493ef9205662d3451ba50e75b9cea4451441))
+
 ## 1.0.0 (2024-01-29)
 
 
