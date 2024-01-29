@@ -1,6 +1,6 @@
 import assert from 'node:assert'
 import { describe, it } from 'node:test'
-import { z } from 'zod'
+import {zocker} from 'zocker'
 import { chat_id } from '../lib/telegram/index.js'
 
 describe('telegram', () => {
@@ -38,6 +38,14 @@ describe('telegram', () => {
 
       assert.notEqual(res.error, undefined)
       assert.equal(res.success, false)
+    })
+
+    it('does not error with mock data', () => {
+      const data = zocker(chat_id).generate();
+      const res = chat_id.safeParse(data)
+
+      assert.equal(res.error, undefined)
+      assert.equal(res.success, true)
     })
   })
 })

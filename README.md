@@ -1,6 +1,10 @@
 # Zod schemas
 
-[![npm version](https://badge.fury.io/js/@jackdbd%2zod-schemas.svg)](https://badge.fury.io/js/@jackdbd%2zod-schemas)
+[![npm version](https://badge.fury.io/js/@jackdbd%2Fzod-schemas.svg)](https://badge.fury.io/js/@jackdbd%2Fzod-schemas)
+![CI workflow](https://github.com/jackdbd/zod-schemas/actions/workflows/ci.yaml/badge.svg)
+![Release to npmjs.com workflow](https://github.com/jackdbd/zod-schemas/actions/workflows/release-to-npmjs.yaml/badge.svg)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
+[![install size](https://packagephobia.com/badge?p=@jackdbd/zod-schemas)](https://packagephobia.com/result?p=@jackdbd/zod-schemas)
 
 Some [Zod](https://github.com/colinhacks/zod) schemas I reuse across projects.
 

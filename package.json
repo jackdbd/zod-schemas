@@ -53,7 +53,7 @@
     "docs:ad": "api-documenter markdown --input-folder .ae/doc --output-folder api-docs",
     "docs:doctoc": "doctoc --github README.md --title '<details><summary>Table of Contents</summary>'",
     "docs:typedoc": "typedoc src/index.ts --excludeInternal --excludePrivate --out docs --plugin typedoc-plugin-zod --theme default",
-    "format": "prettier --config ./config/prettier.cjs --write ./src/**/*.ts ./config/**/*.{cjs,json}",
+    "format": "prettier --config ./config/prettier.cjs --write ./config/**/*.{cjs,json} ./src/**/*.ts ./test/**/*.mjs",
     "lint": "eslint --config ./config/eslint.cjs",
     "nuke": "npm run clean && rimraf node_modules 'package-lock.json'",
     "release": "semantic-release --debug --dry-run --no-ci",
@@ -86,6 +86,7 @@
     "tsm": "^2.3.0",
     "typedoc": "^0.25.7",
     "typedoc-plugin-zod": "^1.1.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "zocker": "^1.4.1"
   }
 }

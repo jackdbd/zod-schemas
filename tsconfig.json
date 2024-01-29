@@ -9,9 +9,7 @@
   
       // Source maps for .d.ts files are awesome because they allow a "Go to
       // Definition" to go the original .ts file, not the .d.ts (which is much
-      // less useful). I don't think I need them when developing on this monorepo
-      // since I defined path mappings in the root tsconfig.json, but I think it's
-      // better to generate them anyway.
+      // less useful).
       // https://www.typescriptlang.org/tsconfig#declarationMap
       "declarationMap": true,
   
@@ -24,7 +22,7 @@
       "forceConsistentCasingInFileNames": true,
   
       // Setting "importHelpers" to true would mean that a consumer of a library
-      // of this monorepo would need to declare tslib as a dependency. Don't do it!
+      // would need to declare tslib as a dependency. Don't do it!
       // https://www.typescriptlang.org/tsconfig#importHelpers
       "importHelpers": false,
   
@@ -89,9 +87,6 @@
       // https://www.typescriptlang.org/tsconfig#strictNullChecks
       "strictNullChecks": true,
   
-      // The libraries of this monorepo target Node.js
-      // You may “mix and match” target and lib settings as desired, but you could
-      // just set target for convenience.
       // https://www.typescriptlang.org/tsconfig#target
       // https://node.green/
          "target": "ES2020",

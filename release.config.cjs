@@ -1,5 +1,5 @@
 /**
- * Configuration for semantic-release.
+ * Configuration for the semantic-release bot.
  */
 const {
   changelog,
@@ -16,8 +16,7 @@ const config = {
 
   ci: true,
 
-  // each package in this monorepo extends this `plugins` array
-  // The git plugin must be called AFTER the npm plugin. See here:
+  // The git plugin must be called AFTER the npm plugin.
   // https://github.com/semantic-release/git#examples
   // https://semantic-release.gitbook.io/semantic-release/support/faq#why-is-the-package.jsons-version-not-updated-in-my-repository
   plugins: [
@@ -30,6 +29,6 @@ const config = {
   ]
 }
 
-console.log('=== semantic-release ===', config)
+// console.log('=== semantic-release ===', config)
 
 module.exports = config

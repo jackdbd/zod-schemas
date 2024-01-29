@@ -33,7 +33,7 @@ const github = [
 
 // https://github.com/semantic-release/npm
 // Do NOT set npmPublish here. Instead, set "private": true or "private": false
-// in the package.json of each monorepo package.
+// in the package.json
 // See alse the release-to-npmjs.yaml GitHub workflow.
 const npm = ["@semantic-release/npm", { pkgRoot: "." }];
 
@@ -94,10 +94,7 @@ const commit_analyzer = [
 
     // https://github.com/semantic-release/commit-analyzer#releaserules
     releaseRules: [
-      // Updating the documentation of the monorepo itself should not trigger a
-      // release, but updating the documentation of a library of this monorepo
-      // certainly should.
-      { type: "docs", scope: "eleventy-plugin-*", release: "patch" },
+      { type: "docs", release: "patch" },
       // Maybe a refactor should trigger a release. I am not 100% convinced though.
       { type: "refactor", release: "patch" },
     ],
