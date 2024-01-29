@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## [2.0.0](https://github.com/jackdbd/zod-schemas/compare/v1.0.1...v2.0.0) (2024-01-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* this new namespacing is a breaking change.
+
+### Features
+
+* add package entry points (exports); better namespacing ([4be6307](https://github.com/jackdbd/zod-schemas/commit/4be63078288a9bacf761986cdadc96cfb5b30531))
+
 ## [1.0.1](https://github.com/jackdbd/zod-schemas/compare/v1.0.0...v1.0.1) (2024-01-29)
 
 
