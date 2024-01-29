@@ -1,5 +1,5 @@
-export { account_id } from './account.js'
+import * as account from './account.js'
+import * as api_token from './api-token.js'
+import * as r2 from './r2.js'
 
-export { access_key_id, secret_access_key } from './api-token.js'
-
-export { custom_domain, r2_bucket_name } from './r2.js'
+export { account, api_token, r2 }

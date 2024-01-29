@@ -8,5 +8,5 @@
 
 |  Package | Description |
 |  --- | --- |
-|  [zod-schemas](./zod-schemas.md) | Zod schemas that I reuse across projects. |
+|  [@jackdbd/zod-schemas](./zod-schemas.md) | Zod schemas that I reuse across projects. |
 

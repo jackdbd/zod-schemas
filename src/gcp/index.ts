@@ -1,19 +1,5 @@
-export { bucket_name as cloud_storage_bucket_name } from './cloud-storage.js'
+import * as cloud_storage from './cloud-storage.js'
+import * as cloud_text_to_speech from './cloud-text-to-speech.js'
+import * as iam from './iam.js'
 
-export {
-  audio_encoding,
-  type AudioEncoding,
-  text,
-  voice_name
-} from './cloud-text-to-speech.js'
-
-export {
-  service_account_email,
-  service_account_json_key_filepath,
-  client_email,
-  client_credentials,
-  type ClientCredentials,
-  google_group_email,
-  user_email,
-  private_key
-} from './iam.js'
+export { cloud_storage, cloud_text_to_speech, iam }

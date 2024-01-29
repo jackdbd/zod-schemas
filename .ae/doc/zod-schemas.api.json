@@ -161,20 +161,20 @@
     }
   },
   "kind": "Package",
-  "canonicalReference": "zod-schemas!",
+  "canonicalReference": "@jackdbd/zod-schemas!",
   "docComment": "/**\n * Zod schemas that I reuse across projects.\n *\n * @packageDocumentation\n */\n",
-  "name": "zod-schemas",
+  "name": "@jackdbd/zod-schemas",
   "preserveMemberOrder": false,
   "members": [
     {
       "kind": "EntryPoint",
-      "canonicalReference": "zod-schemas!",
+      "canonicalReference": "@jackdbd/zod-schemas!",
       "name": "",
       "preserveMemberOrder": false,
       "members": [
         {
           "kind": "Namespace",
-          "canonicalReference": "zod-schemas!cloudflare:namespace",
+          "canonicalReference": "@jackdbd/zod-schemas!cloudflare:namespace",
           "docComment": "",
           "excerptTokens": [],
           "fileUrlPath": "src/index.ts",
@@ -183,130 +183,166 @@
           "preserveMemberOrder": false,
           "members": [
             {
-              "kind": "Variable",
-              "canonicalReference": "zod-schemas!cloudflare.access_key_id:var",
+              "kind": "Namespace",
+              "canonicalReference": "@jackdbd/zod-schemas!cloudflare.account:namespace",
               "docComment": "",
-              "excerptTokens": [
+              "excerptTokens": [],
+              "fileUrlPath": "src/cloudflare/index.ts",
+              "releaseTag": "None",
+              "name": "account",
+              "preserveMemberOrder": false,
+              "members": [
                 {
-                  "kind": "Content",
-                  "text": "access_key_id: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
+                  "kind": "Variable",
+                  "canonicalReference": "@jackdbd/zod-schemas!cloudflare.account.id:var",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "id: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    }
+                  ],
+                  "fileUrlPath": "src/cloudflare/account.ts",
+                  "isReadonly": true,
+                  "releaseTag": "Public",
+                  "name": "id",
+                  "variableTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
                 }
-              ],
-              "fileUrlPath": "src/cloudflare/api-token.ts",
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "access_key_id",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              }
+              ]
             },
             {
-              "kind": "Variable",
-              "canonicalReference": "zod-schemas!cloudflare.account_id:var",
+              "kind": "Namespace",
+              "canonicalReference": "@jackdbd/zod-schemas!cloudflare.api_token:namespace",
               "docComment": "",
-              "excerptTokens": [
+              "excerptTokens": [],
+              "fileUrlPath": "src/cloudflare/index.ts",
+              "releaseTag": "None",
+              "name": "api_token",
+              "preserveMemberOrder": false,
+              "members": [
                 {
-                  "kind": "Content",
-                  "text": "account_id: "
+                  "kind": "Variable",
+                  "canonicalReference": "@jackdbd/zod-schemas!cloudflare.api_token.access_key_id:var",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "access_key_id: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    }
+                  ],
+                  "fileUrlPath": "src/cloudflare/api-token.ts",
+                  "isReadonly": true,
+                  "releaseTag": "Public",
+                  "name": "access_key_id",
+                  "variableTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
                 },
                 {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
+                  "kind": "Variable",
+                  "canonicalReference": "@jackdbd/zod-schemas!cloudflare.api_token.secret_access_key:var",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "secret_access_key: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    }
+                  ],
+                  "fileUrlPath": "src/cloudflare/api-token.ts",
+                  "isReadonly": true,
+                  "releaseTag": "Public",
+                  "name": "secret_access_key",
+                  "variableTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
                 }
-              ],
-              "fileUrlPath": "src/cloudflare/account.ts",
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "account_id",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              }
+              ]
             },
             {
-              "kind": "Variable",
-              "canonicalReference": "zod-schemas!cloudflare.custom_domain:var",
+              "kind": "Namespace",
+              "canonicalReference": "@jackdbd/zod-schemas!cloudflare.r2:namespace",
               "docComment": "",
-              "excerptTokens": [
+              "excerptTokens": [],
+              "fileUrlPath": "src/cloudflare/index.ts",
+              "releaseTag": "None",
+              "name": "r2",
+              "preserveMemberOrder": false,
+              "members": [
                 {
-                  "kind": "Content",
-                  "text": "custom_domain: "
+                  "kind": "Variable",
+                  "canonicalReference": "@jackdbd/zod-schemas!cloudflare.r2.bucket_name:var",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "bucket_name: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    }
+                  ],
+                  "fileUrlPath": "src/cloudflare/r2.ts",
+                  "isReadonly": true,
+                  "releaseTag": "Public",
+                  "name": "bucket_name",
+                  "variableTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
                 },
                 {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
+                  "kind": "Variable",
+                  "canonicalReference": "@jackdbd/zod-schemas!cloudflare.r2.custom_domain:var",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "custom_domain: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    }
+                  ],
+                  "fileUrlPath": "src/cloudflare/r2.ts",
+                  "isReadonly": true,
+                  "releaseTag": "Public",
+                  "name": "custom_domain",
+                  "variableTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
                 }
-              ],
-              "fileUrlPath": "src/cloudflare/r2.ts",
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "custom_domain",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "zod-schemas!cloudflare.r2_bucket_name:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "r2_bucket_name: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
-                }
-              ],
-              "fileUrlPath": "src/cloudflare/r2.ts",
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "r2_bucket_name",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "zod-schemas!cloudflare.secret_access_key:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "secret_access_key: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
-                }
-              ],
-              "fileUrlPath": "src/cloudflare/api-token.ts",
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "secret_access_key",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              }
+              ]
             }
           ]
         },
         {
           "kind": "Namespace",
-          "canonicalReference": "zod-schemas!dom:namespace",
+          "canonicalReference": "@jackdbd/zod-schemas!dom:namespace",
           "docComment": "",
           "excerptTokens": [],
           "fileUrlPath": "src/index.ts",
@@ -316,7 +352,7 @@
           "members": [
             {
               "kind": "Variable",
-              "canonicalReference": "zod-schemas!dom.css_selector:var",
+              "canonicalReference": "@jackdbd/zod-schemas!dom.css_selector:var",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -340,7 +376,7 @@
             },
             {
               "kind": "Variable",
-              "canonicalReference": "zod-schemas!dom.xpath_expression:var",
+              "canonicalReference": "@jackdbd/zod-schemas!dom.xpath_expression:var",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -366,7 +402,7 @@
         },
         {
           "kind": "Namespace",
-          "canonicalReference": "zod-schemas!elevenlabs:namespace",
+          "canonicalReference": "@jackdbd/zod-schemas!elevenlabs:namespace",
           "docComment": "",
           "excerptTokens": [],
           "fileUrlPath": "src/index.ts",
@@ -376,7 +412,7 @@
           "members": [
             {
               "kind": "Variable",
-              "canonicalReference": "zod-schemas!elevenlabs.api_key:var",
+              "canonicalReference": "@jackdbd/zod-schemas!elevenlabs.api_key:var",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -413,7 +449,7 @@
             },
             {
               "kind": "Variable",
-              "canonicalReference": "zod-schemas!elevenlabs.model_id:var",
+              "canonicalReference": "@jackdbd/zod-schemas!elevenlabs.model_id:var",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -486,7 +522,7 @@
             },
             {
               "kind": "TypeAlias",
-              "canonicalReference": "zod-schemas!elevenlabs.ModelId:type",
+              "canonicalReference": "@jackdbd/zod-schemas!elevenlabs.ModelId:type",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -505,7 +541,7 @@
                 {
                   "kind": "Reference",
                   "text": "model_id",
-                  "canonicalReference": "zod-schemas!elevenlabs.model_id:var"
+                  "canonicalReference": "@jackdbd/zod-schemas!elevenlabs.model_id:var"
                 },
                 {
                   "kind": "Content",
@@ -526,7 +562,7 @@
             },
             {
               "kind": "Variable",
-              "canonicalReference": "zod-schemas!elevenlabs.output_format:var",
+              "canonicalReference": "@jackdbd/zod-schemas!elevenlabs.output_format:var",
               "docComment": "/**\n * Output formats supported by the ElevenLabs Text-to-Speech API.\n *\n * @see\n *\n * https://help.elevenlabs.io/hc/en-us/articles/15754340124305-What-audio-formats-do-you-support\n *\n * @see\n *\n * https://github.com/elevenlabs/elevenlabs-python/blob/main/API.md\n */\n",
               "excerptTokens": [
                 {
@@ -635,7 +671,7 @@
             },
             {
               "kind": "TypeAlias",
-              "canonicalReference": "zod-schemas!elevenlabs.OutputFormat:type",
+              "canonicalReference": "@jackdbd/zod-schemas!elevenlabs.OutputFormat:type",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -654,7 +690,7 @@
                 {
                   "kind": "Reference",
                   "text": "output_format",
-                  "canonicalReference": "zod-schemas!elevenlabs.output_format:var"
+                  "canonicalReference": "@jackdbd/zod-schemas!elevenlabs.output_format:var"
                 },
                 {
                   "kind": "Content",
@@ -675,7 +711,7 @@
             },
             {
               "kind": "Variable",
-              "canonicalReference": "zod-schemas!elevenlabs.text:var",
+              "canonicalReference": "@jackdbd/zod-schemas!elevenlabs.text:var",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -699,7 +735,7 @@
             },
             {
               "kind": "Variable",
-              "canonicalReference": "zod-schemas!elevenlabs.voice_id:var",
+              "canonicalReference": "@jackdbd/zod-schemas!elevenlabs.voice_id:var",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -725,7 +761,7 @@
         },
         {
           "kind": "Namespace",
-          "canonicalReference": "zod-schemas!eleventy:namespace",
+          "canonicalReference": "@jackdbd/zod-schemas!eleventy:namespace",
           "docComment": "",
           "excerptTokens": [],
           "fileUrlPath": "src/index.ts",
@@ -735,7 +771,7 @@
           "members": [
             {
               "kind": "Variable",
-              "canonicalReference": "zod-schemas!eleventy.collection_name:var",
+              "canonicalReference": "@jackdbd/zod-schemas!eleventy.collection_name:var",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -759,7 +795,7 @@
             },
             {
               "kind": "Variable",
-              "canonicalReference": "zod-schemas!eleventy.transform_name:var",
+              "canonicalReference": "@jackdbd/zod-schemas!eleventy.transform_name:var",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -785,7 +821,7 @@
         },
         {
           "kind": "Namespace",
-          "canonicalReference": "zod-schemas!gcp:namespace",
+          "canonicalReference": "@jackdbd/zod-schemas!gcp:namespace",
           "docComment": "",
           "excerptTokens": [],
           "fileUrlPath": "src/index.ts",
@@ -794,514 +830,550 @@
           "preserveMemberOrder": false,
           "members": [
             {
-              "kind": "Variable",
-              "canonicalReference": "zod-schemas!gcp.audio_encoding:var",
+              "kind": "Namespace",
+              "canonicalReference": "@jackdbd/zod-schemas!gcp.cloud_storage:namespace",
               "docComment": "",
-              "excerptTokens": [
+              "excerptTokens": [],
+              "fileUrlPath": "src/gcp/index.ts",
+              "releaseTag": "None",
+              "name": "cloud_storage",
+              "preserveMemberOrder": false,
+              "members": [
                 {
-                  "kind": "Content",
-                  "text": "audio_encoding: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodUnion",
-                  "canonicalReference": "zod!ZodUnion:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<["
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodLiteral",
-                  "canonicalReference": "zod!ZodLiteral:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<\"ALAW\">, "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodLiteral",
-                  "canonicalReference": "zod!ZodLiteral:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<\"AUDIO_ENCODING_UNSPECIFIED\">, "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodLiteral",
-                  "canonicalReference": "zod!ZodLiteral:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<\"LINEAR16\">, "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodLiteral",
-                  "canonicalReference": "zod!ZodLiteral:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<\"MP3\">, "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodLiteral",
-                  "canonicalReference": "zod!ZodLiteral:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<\"MULAW\">, "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodLiteral",
-                  "canonicalReference": "zod!ZodLiteral:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<\"OGG_OPUS\">]>"
+                  "kind": "Variable",
+                  "canonicalReference": "@jackdbd/zod-schemas!gcp.cloud_storage.bucket_name:var",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "bucket_name: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    }
+                  ],
+                  "fileUrlPath": "src/gcp/cloud-storage.ts",
+                  "isReadonly": true,
+                  "releaseTag": "Public",
+                  "name": "bucket_name",
+                  "variableTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
                 }
-              ],
-              "fileUrlPath": "src/gcp/cloud-text-to-speech.ts",
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "audio_encoding",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 15
-              }
+              ]
             },
             {
-              "kind": "TypeAlias",
-              "canonicalReference": "zod-schemas!gcp.AudioEncoding:type",
+              "kind": "Namespace",
+              "canonicalReference": "@jackdbd/zod-schemas!gcp.cloud_text_to_speech:namespace",
               "docComment": "",
-              "excerptTokens": [
+              "excerptTokens": [],
+              "fileUrlPath": "src/gcp/index.ts",
+              "releaseTag": "None",
+              "name": "cloud_text_to_speech",
+              "preserveMemberOrder": false,
+              "members": [
                 {
-                  "kind": "Content",
-                  "text": "export type AudioEncoding = "
+                  "kind": "Variable",
+                  "canonicalReference": "@jackdbd/zod-schemas!gcp.cloud_text_to_speech.audio_encoding:var",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "audio_encoding: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodUnion",
+                      "canonicalReference": "zod!ZodUnion:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "<["
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodLiteral",
+                      "canonicalReference": "zod!ZodLiteral:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "<\"ALAW\">, "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodLiteral",
+                      "canonicalReference": "zod!ZodLiteral:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "<\"AUDIO_ENCODING_UNSPECIFIED\">, "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodLiteral",
+                      "canonicalReference": "zod!ZodLiteral:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "<\"LINEAR16\">, "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodLiteral",
+                      "canonicalReference": "zod!ZodLiteral:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "<\"MP3\">, "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodLiteral",
+                      "canonicalReference": "zod!ZodLiteral:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "<\"MULAW\">, "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodLiteral",
+                      "canonicalReference": "zod!ZodLiteral:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "<\"OGG_OPUS\">]>"
+                    }
+                  ],
+                  "fileUrlPath": "src/gcp/cloud-text-to-speech.ts",
+                  "isReadonly": true,
+                  "releaseTag": "Public",
+                  "name": "audio_encoding",
+                  "variableTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 15
+                  }
                 },
                 {
-                  "kind": "Reference",
-                  "text": "z.infer",
-                  "canonicalReference": "zod!TypeOf:type"
+                  "kind": "TypeAlias",
+                  "canonicalReference": "@jackdbd/zod-schemas!gcp.cloud_text_to_speech.AudioEncoding:type",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "export type AudioEncoding = "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.infer",
+                      "canonicalReference": "zod!TypeOf:type"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "<typeof "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "audio_encoding",
+                      "canonicalReference": "@jackdbd/zod-schemas!gcp.cloud_text_to_speech.audio_encoding:var"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ">"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "fileUrlPath": "src/gcp/cloud-text-to-speech.ts",
+                  "releaseTag": "Public",
+                  "name": "AudioEncoding",
+                  "typeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 5
+                  }
                 },
                 {
-                  "kind": "Content",
-                  "text": "<typeof "
+                  "kind": "Variable",
+                  "canonicalReference": "@jackdbd/zod-schemas!gcp.cloud_text_to_speech.text:var",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "text: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    }
+                  ],
+                  "fileUrlPath": "src/gcp/cloud-text-to-speech.ts",
+                  "isReadonly": true,
+                  "releaseTag": "Public",
+                  "name": "text",
+                  "variableTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
                 },
                 {
-                  "kind": "Reference",
-                  "text": "audio_encoding",
-                  "canonicalReference": "zod-schemas!gcp.audio_encoding:var"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
+                  "kind": "Variable",
+                  "canonicalReference": "@jackdbd/zod-schemas!gcp.cloud_text_to_speech.voice_name:var",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "voice_name: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    }
+                  ],
+                  "fileUrlPath": "src/gcp/cloud-text-to-speech.ts",
+                  "isReadonly": true,
+                  "releaseTag": "Public",
+                  "name": "voice_name",
+                  "variableTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
                 }
-              ],
-              "fileUrlPath": "src/gcp/cloud-text-to-speech.ts",
-              "releaseTag": "Public",
-              "name": "AudioEncoding",
-              "typeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 5
-              }
+              ]
             },
             {
-              "kind": "Variable",
-              "canonicalReference": "zod-schemas!gcp.client_credentials:var",
+              "kind": "Namespace",
+              "canonicalReference": "@jackdbd/zod-schemas!gcp.iam:namespace",
               "docComment": "",
-              "excerptTokens": [
+              "excerptTokens": [],
+              "fileUrlPath": "src/gcp/index.ts",
+              "releaseTag": "None",
+              "name": "iam",
+              "preserveMemberOrder": false,
+              "members": [
                 {
-                  "kind": "Content",
-                  "text": "client_credentials: "
+                  "kind": "Variable",
+                  "canonicalReference": "@jackdbd/zod-schemas!gcp.iam.client_credentials:var",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "client_credentials: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodObject",
+                      "canonicalReference": "zod!ZodObject:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "<{\n    client_email: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodUnion",
+                      "canonicalReference": "zod!ZodUnion:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "<["
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ", "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ", "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "]>;\n    private_key: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";\n}, \"strip\", "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodTypeAny",
+                      "canonicalReference": "zod!ZodTypeAny:type"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ", {\n    client_email: string;\n    private_key: string;\n}, {\n    client_email: string;\n    private_key: string;\n}>"
+                    }
+                  ],
+                  "fileUrlPath": "src/gcp/iam.ts",
+                  "isReadonly": true,
+                  "releaseTag": "Public",
+                  "name": "client_credentials",
+                  "variableTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 15
+                  }
                 },
                 {
-                  "kind": "Reference",
-                  "text": "z.ZodObject",
-                  "canonicalReference": "zod!ZodObject:class"
+                  "kind": "Variable",
+                  "canonicalReference": "@jackdbd/zod-schemas!gcp.iam.client_email:var",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "client_email: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodUnion",
+                      "canonicalReference": "zod!ZodUnion:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "<["
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ", "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ", "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "]>"
+                    }
+                  ],
+                  "fileUrlPath": "src/gcp/iam.ts",
+                  "isReadonly": true,
+                  "releaseTag": "Public",
+                  "name": "client_email",
+                  "variableTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 9
+                  }
                 },
                 {
-                  "kind": "Content",
-                  "text": "<{\n    client_email: "
+                  "kind": "TypeAlias",
+                  "canonicalReference": "@jackdbd/zod-schemas!gcp.iam.ClientCredentials:type",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "export type ClientCredentials = "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.infer",
+                      "canonicalReference": "zod!TypeOf:type"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "<typeof "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "client_credentials",
+                      "canonicalReference": "@jackdbd/zod-schemas!gcp.iam.client_credentials:var"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ">"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "fileUrlPath": "src/gcp/iam.ts",
+                  "releaseTag": "Public",
+                  "name": "ClientCredentials",
+                  "typeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 5
+                  }
                 },
                 {
-                  "kind": "Reference",
-                  "text": "z.ZodUnion",
-                  "canonicalReference": "zod!ZodUnion:class"
+                  "kind": "Variable",
+                  "canonicalReference": "@jackdbd/zod-schemas!gcp.iam.google_group_email:var",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "google_group_email: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    }
+                  ],
+                  "fileUrlPath": "src/gcp/iam.ts",
+                  "isReadonly": true,
+                  "releaseTag": "Public",
+                  "name": "google_group_email",
+                  "variableTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
                 },
                 {
-                  "kind": "Content",
-                  "text": "<["
+                  "kind": "Variable",
+                  "canonicalReference": "@jackdbd/zod-schemas!gcp.iam.private_key:var",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "private_key: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    }
+                  ],
+                  "fileUrlPath": "src/gcp/iam.ts",
+                  "isReadonly": true,
+                  "releaseTag": "Public",
+                  "name": "private_key",
+                  "variableTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
                 },
                 {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
+                  "kind": "Variable",
+                  "canonicalReference": "@jackdbd/zod-schemas!gcp.iam.service_account_email:var",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "service_account_email: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    }
+                  ],
+                  "fileUrlPath": "src/gcp/iam.ts",
+                  "isReadonly": true,
+                  "releaseTag": "Public",
+                  "name": "service_account_email",
+                  "variableTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
                 },
                 {
-                  "kind": "Content",
-                  "text": ", "
+                  "kind": "Variable",
+                  "canonicalReference": "@jackdbd/zod-schemas!gcp.iam.service_account_json_key_filepath:var",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "service_account_json_key_filepath: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodDefault",
+                      "canonicalReference": "zod!ZodDefault:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "<"
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ">"
+                    }
+                  ],
+                  "fileUrlPath": "src/gcp/iam.ts",
+                  "isReadonly": true,
+                  "releaseTag": "Public",
+                  "name": "service_account_json_key_filepath",
+                  "variableTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 5
+                  }
                 },
                 {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "]>;\n    private_key: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";\n}, \"strip\", "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodTypeAny",
-                  "canonicalReference": "zod!ZodTypeAny:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", {\n    client_email: string;\n    private_key: string;\n}, {\n    client_email: string;\n    private_key: string;\n}>"
+                  "kind": "Variable",
+                  "canonicalReference": "@jackdbd/zod-schemas!gcp.iam.user_email:var",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "user_email: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "z.ZodString",
+                      "canonicalReference": "zod!ZodString:class"
+                    }
+                  ],
+                  "fileUrlPath": "src/gcp/iam.ts",
+                  "isReadonly": true,
+                  "releaseTag": "Public",
+                  "name": "user_email",
+                  "variableTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
                 }
-              ],
-              "fileUrlPath": "src/gcp/iam.ts",
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "client_credentials",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 15
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "zod-schemas!gcp.client_email:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "client_email: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodUnion",
-                  "canonicalReference": "zod!ZodUnion:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<["
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "]>"
-                }
-              ],
-              "fileUrlPath": "src/gcp/iam.ts",
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "client_email",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 9
-              }
-            },
-            {
-              "kind": "TypeAlias",
-              "canonicalReference": "zod-schemas!gcp.ClientCredentials:type",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export type ClientCredentials = "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.infer",
-                  "canonicalReference": "zod!TypeOf:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<typeof "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "client_credentials",
-                  "canonicalReference": "zod-schemas!gcp.client_credentials:var"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "fileUrlPath": "src/gcp/iam.ts",
-              "releaseTag": "Public",
-              "name": "ClientCredentials",
-              "typeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 5
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "zod-schemas!gcp.cloud_storage_bucket_name:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "bucket_name: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
-                }
-              ],
-              "fileUrlPath": "src/gcp/cloud-storage.ts",
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "cloud_storage_bucket_name",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "zod-schemas!gcp.google_group_email:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "google_group_email: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
-                }
-              ],
-              "fileUrlPath": "src/gcp/iam.ts",
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "google_group_email",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "zod-schemas!gcp.private_key:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "private_key: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
-                }
-              ],
-              "fileUrlPath": "src/gcp/iam.ts",
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "private_key",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "zod-schemas!gcp.service_account_email:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "service_account_email: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
-                }
-              ],
-              "fileUrlPath": "src/gcp/iam.ts",
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "service_account_email",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "zod-schemas!gcp.service_account_json_key_filepath:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "service_account_json_key_filepath: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodDefault",
-                  "canonicalReference": "zod!ZodDefault:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                }
-              ],
-              "fileUrlPath": "src/gcp/iam.ts",
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "service_account_json_key_filepath",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 5
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "zod-schemas!gcp.text:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "text: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
-                }
-              ],
-              "fileUrlPath": "src/gcp/cloud-text-to-speech.ts",
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "text",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "zod-schemas!gcp.user_email:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "user_email: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
-                }
-              ],
-              "fileUrlPath": "src/gcp/iam.ts",
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "user_email",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "zod-schemas!gcp.voice_name:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "voice_name: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "z.ZodString",
-                  "canonicalReference": "zod!ZodString:class"
-                }
-              ],
-              "fileUrlPath": "src/gcp/cloud-text-to-speech.ts",
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "voice_name",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              }
+              ]
             }
           ]
         },
         {
           "kind": "Variable",
-          "canonicalReference": "zod-schemas!isUnique:var",
+          "canonicalReference": "@jackdbd/zod-schemas!isUnique:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1324,7 +1396,7 @@
         },
         {
           "kind": "Namespace",
-          "canonicalReference": "zod-schemas!telegram:namespace",
+          "canonicalReference": "@jackdbd/zod-schemas!telegram:namespace",
           "docComment": "",
           "excerptTokens": [],
           "fileUrlPath": "src/index.ts",
@@ -1334,7 +1406,7 @@
           "members": [
             {
               "kind": "Variable",
-              "canonicalReference": "zod-schemas!telegram.bot_token:var",
+              "canonicalReference": "@jackdbd/zod-schemas!telegram.bot_token:var",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1358,7 +1430,7 @@
             },
             {
               "kind": "Variable",
-              "canonicalReference": "zod-schemas!telegram.chat_id:var",
+              "canonicalReference": "@jackdbd/zod-schemas!telegram.chat_id:var",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1404,7 +1476,7 @@
             },
             {
               "kind": "TypeAlias",
-              "canonicalReference": "zod-schemas!telegram.ChatId:type",
+              "canonicalReference": "@jackdbd/zod-schemas!telegram.ChatId:type",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1423,7 +1495,7 @@
                 {
                   "kind": "Reference",
                   "text": "chat_id",
-                  "canonicalReference": "zod-schemas!telegram.chat_id:var"
+                  "canonicalReference": "@jackdbd/zod-schemas!telegram.chat_id:var"
                 },
                 {
                   "kind": "Content",
@@ -1444,7 +1516,7 @@
             },
             {
               "kind": "Variable",
-              "canonicalReference": "zod-schemas!telegram.text:var",
+              "canonicalReference": "@jackdbd/zod-schemas!telegram.text:var",
               "docComment": "",
               "excerptTokens": [
                 {

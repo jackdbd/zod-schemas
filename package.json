@@ -26,6 +26,34 @@
     ".": {
       "types": "./lib/index.d.ts",
       "import": "./lib/index.js"
+    },
+    "./cloudflare": {
+      "types": "./lib/cloudflare/index.d.ts",
+      "import": "./lib/cloudflare/index.js"
+    },
+    "./cloudflare/*": {
+      "types": "./lib/cloudflare/*.d.ts",
+      "import": "./lib/cloudflare/*.js"
+    },
+    "./dom": {
+      "types": "./lib/dom/index.d.ts",
+      "import": "./lib/dom/index.js"
+    },
+    "./elevenlabs": {
+      "types": "./lib/elevenlabs/index.d.ts",
+      "import": "./lib/elevenlabs/index.js"
+    },
+    "./eleventy": {
+      "types": "./lib/eleventy/index.d.ts",
+      "import": "./lib/eleventy/index.js"
+    },
+    "./gcp": {
+      "types": "./lib/gcp/index.d.ts",
+      "import": "./lib/gcp/index.js"
+    },
+    "./telegram": {
+      "types": "./lib/telegram/index.d.ts",
+      "import": "./lib/telegram/index.js"
     }
   },
   "typesVersions": {

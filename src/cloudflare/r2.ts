@@ -1,6 +1,6 @@
 import { z } from 'zod'
 
-export const r2_bucket_name = z
+export const bucket_name = z
   .string()
   .describe('Name of the Cloudflare R2 bucket')
 
