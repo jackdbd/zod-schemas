@@ -5,6 +5,7 @@
 ![Release to npmjs.com workflow](https://github.com/jackdbd/zod-schemas/actions/workflows/release-to-npmjs.yaml/badge.svg)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 [![install size](https://packagephobia.com/badge?p=@jackdbd/zod-schemas)](https://packagephobia.com/result?p=@jackdbd/zod-schemas)
+[![Socket Badge](https://socket.dev/api/badge/npm/package/@jackdbd/zod-schemas)](https://socket.dev/npm/package/@jackdbd/zod-schemas)
 
 Some [Zod](https://github.com/colinhacks/zod) schemas I reuse across projects.
 

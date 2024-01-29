@@ -54,6 +54,10 @@
     "./telegram": {
       "types": "./lib/telegram/index.d.ts",
       "import": "./lib/telegram/index.js"
+    },
+    "./utils": {
+      "types": "./lib/utils/index.d.ts",
+      "import": "./lib/utils/index.js"
     }
   },
   "typesVersions": {
