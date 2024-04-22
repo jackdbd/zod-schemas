@@ -1,6 +1,6 @@
 {
   "name": "@jackdbd/zod-schemas",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Some [Zod](https://github.com/colinhacks/zod) schemas I reuse across projects.",
   "author": {
     "name": "Giacomo Debidda",

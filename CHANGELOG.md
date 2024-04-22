@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.2.0](https://github.com/jackdbd/zod-schemas/compare/v2.1.0...v2.2.0) (2024-04-22)
+
+
+### Features
+
+* upgrade zod and rebuild ([11fa3a4](https://github.com/jackdbd/zod-schemas/commit/11fa3a4a49eb27485c6d816a43d03fea70d3e671))
+
 ## [2.1.0](https://github.com/jackdbd/zod-schemas/compare/v2.0.0...v2.1.0) (2024-01-29)
 
 
